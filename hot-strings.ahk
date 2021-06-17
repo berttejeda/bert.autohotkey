@@ -3,22 +3,34 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-:*:]go.n::
+:*:]]go::
 (
 package main
 
 import "fmt"
 
 func main() {
-	
+  
 )
 return
-:*:]p.conf::
-Send,myusername
+:*:]]and::
+(
+- debug:
+    msg: |-
+      ___
+  
+- meta: end_play
+)
+return
+:*:]]ff::
+Send,myconfu
 Send,{TAB}
-Send,mypassword
+Send,myconfp
 Send,{Enter}
 return
-:*:]p.self::
-Send,mypassword
+:*:]]pp::
+Send,myipa
+return
+:*:]]cc::
+Send,mycorp
 return
